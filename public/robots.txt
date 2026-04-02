@@ -1,0 +1,16 @@
+# Robots.txt - Impedir indexação
+User-agent: *
+Disallow: /
+
+# Disallow specific search engines
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /

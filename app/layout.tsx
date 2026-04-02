@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: 'SaudePlus - Encontre o Melhor Plano de Saúde',
   description: 'Plataforma confiável para comparar e contratar planos de saúde. Cotação personalizada de Amil, Hapvida, SulAmérica, Unimed, Bradesco e mais.',
   keywords: ['plano de saúde', 'saúde', 'seguros', 'comparação'],
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+  },
 }
 
 export default function RootLayout({
